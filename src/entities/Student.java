@@ -12,5 +12,10 @@ public class Student {
 		double totalAverage = 100 - (firstSemesterGrade + secondSemesterGrade + thirdSemesterGrade);
 		return totalAverage;
 	}
+	
+	//Criando metodo showResult
+	public void showResult() {
+		System.out.printf("Student: %s, Final Grade: %.2f%n", nameStudent, totalAverage());
+	}
 
 }
